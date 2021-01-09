@@ -15,3 +15,4 @@ class Song < ActiveRecord::Base
       Artist.find_or_create_by(name: 'Drake')
   end
 end
+end
